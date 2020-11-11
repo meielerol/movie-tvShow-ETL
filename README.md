@@ -9,8 +9,12 @@ Utilizing the following data sets from [Kaggle](https://www.kaggle.com/) we crea
 
 ## Database
 
+<div style='text-align:center'><img src='https://github.com/meielerol/movie-tvShow-ETL/blob/main/Images/Transformations.png' alt='Transformations'></div>
+
+The image above demonstrates the transformations that were used while converting the [Movies.csv](https://github.com/meielerol/movie-tvShow-ETL/blob/main/Resources/Movies.csv) and [tv_shows.csv](https://github.com/meielerol/movie-tvShow-ETL/blob/main/Resources/tv_shows.csv).
+
+[Jupyter Notebook](https://github.com/meielerol/movie-tvShow-ETL/blob/main/movies-tvShow-ETL.ipynb) was utilized to clean and transform the data into the necessary csv files for Postgres. Postgres was utilized to create the tables, store the data, and query from. 
+
 <div style='text-align:center'><img src='https://github.com/meielerol/movie-tvShow-ETL/blob/main/Images/StreamingPlatforms_Database_ERD.png' alt='Database ERD'></div>
 
 The text file for the logic used in the ERD can be found [here](https://github.com/meielerol/movie-tvShow-ETL/blob/main/StreamingPlatforms_Database_ERD.txt).
-
-[Jupyter Notebook](https://github.com/meielerol/movie-tvShow-ETL/blob/main/movies-tvShow-ETL.ipynb) was utilized to clean and transform the data into the necessary csv files for Postgres. Postgres was utilized to create the tables, store the data, and query from. 
