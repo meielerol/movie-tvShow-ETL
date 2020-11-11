@@ -13,4 +13,4 @@ Utilizing the following data sets from [Kaggle](https://www.kaggle.com/) we crea
 
 The text file for the logic used in the ERD can be found [here](https://github.com/meielerol/movie-tvShow-ETL/blob/main/StreamingPlatforms_Database_ERD.txt).
 
-Jupyter Notebook was utilized to clean and transform the data into the necessary csv files for Postgres. Postgres was utilized to create the tables, store the data, and query from. 
+[Jupyter Notebook](https://github.com/meielerol/movie-tvShow-ETL/blob/main/movies-tvShow-ETL.ipynb) was utilized to clean and transform the data into the necessary csv files for Postgres. Postgres was utilized to create the tables, store the data, and query from. 
