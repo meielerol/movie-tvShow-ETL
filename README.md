@@ -9,7 +9,7 @@ Utilizing the following data sets from [Kaggle](https://www.kaggle.com/) we crea
 
 ## Database
 
-<div style='text-align:center'><img href='https://github.com/meielerol/movie-tvShow-ETL/blob/main/Images/StreamingPlatforms_Database_ERD.png' src='Database ERD'></div>
+<div style='text-align:center'><img src='https://github.com/meielerol/movie-tvShow-ETL/blob/main/Images/StreamingPlatforms_Database_ERD.png' alt='Database ERD'></div>
 
 The text file for the logic used in the ERD can be found [here](https://github.com/meielerol/movie-tvShow-ETL/blob/main/StreamingPlatforms_Database_ERD.txt).
 
