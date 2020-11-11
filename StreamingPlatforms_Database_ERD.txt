@@ -1,0 +1,52 @@
+#logical schema
+
+Title
+-
+Title_id PK
+Title
+
+Type
+-
+Type PK
+Title_id FK - Title.Title_id
+
+Rating
+-
+Title_id FK - Title.Title_id
+Age
+IMDb
+Rotten_tomatoes
+
+Title_info
+-
+Title_id FK - Title.Title_id
+Year
+Genres
+Directors
+Country
+Language
+Runtime
+
+Netflix
+-
+Title_id PK FK - Title.Title_id
+Title FK >-< Title.Title
+Netflix_rank
+
+Hulu
+-
+Title_id PK FK - Title.Title_id
+Title FK >-< Title.Title
+Hulu_rank
+
+Prime
+-
+Title_id PK FK - Title.Title_id
+Title FK >-< Title.Title
+Prime_rank
+
+Disney
+-
+Title_id PK FK - Title.Title_id
+Title FK >-< Title.Title
+Disney_rank
